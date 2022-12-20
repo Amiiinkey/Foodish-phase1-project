@@ -3,17 +3,18 @@ const CATEGORIES = 'https://www.themealdb.com/api/json/v1/1/categories.php'
 document.addEventListener('DOMContentLoaded', () => {
 
 
-    // ROWS DATA PAGE
+    // ROWS DATA
     const mealCategoryRow = document.getElementById('meal-categories')
     const hide = document.querySelector(".Landing-page")
 
-    // LINKS DATA PAGE
+    // LINKS DATA
     const categoriesLink = document.getElementById('category-link')
     const homeLink = document.getElementById('home-link')
+    const contactLink = document.getElementById('contact-link')
 
    
 
-    // CLICK EVENTS FOR LINKS PAGE
+    // CLICK EVENTS FOR LINKS
     categoriesLink.addEventListener('click', () => {
 
         hide.style.display = "none"
@@ -22,6 +23,15 @@ document.addEventListener('DOMContentLoaded', () => {
         mealCategoryRow.removeAttribute('hidden')
         mealCategoryRow.style.display = "flex"
 
+    })
+
+    homeLink.addEventListener("click", () => {
+        hide.style.display = "block"
+        mealCategoryRow.style.display = "none"
+
+    })
+
+   
     })
 
       // create category element
