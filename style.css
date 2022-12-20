@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #DF007C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 4% ;
+    font-family: 'Anton', sans-serif;
+    color: white;
+
+}
+.Left-nav span {
+    font-size: 35px;
+    font-weight: bold;
+}
+.Right-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    font-size: 18px;
+
+}
+nav .Right-nav ul li{
+    cursor: pointer;
+    margin-top: 7%;
+}
+nav .Right-nav ul li:hover{
+    color: black;
+}
+
+
+.Landing-page {
+    height: calc(100vh - 47px);
+}
+
+.Top-div {
+    height: 50%;
+    border: 1px solid black;
+    width: 80%;
+    margin: 20px auto ;
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.Bottom-div {
+    height: calc(50% - 47px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+
+}
+.Bottom-div span{
+    color: #DF007C;
+    margin-left: 60%;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 25px;
+}
+
+.Food-list h1 {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.Food-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.Food-container div {
+    min-width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
