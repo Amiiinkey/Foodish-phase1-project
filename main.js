@@ -31,7 +31,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     })
 
-   
+    contactLink.addEventListener("click", () => {
+        alert('contact-us is clicked')
     })
 
       // create category element
