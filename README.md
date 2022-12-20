@@ -19,4 +19,8 @@ Git clone the repo nd try it in your own macine,if u encounter any bugs pls make
 3. [Javascript](https://)
 
 - I used the EventListerners to call back functions like the click
--
+- I used the querySelector to return the first element thet matches a CSS selector
+- I used the link function to link the home,food list and contact us in the html nd used the click function in java with the getElementById to make them usserbal
+
+U can also go and watch vedios of PROGRAMING WITH MOSH he explains everything 
+
