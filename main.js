@@ -3,17 +3,17 @@ const CATEGORIES = 'https://www.themealdb.com/api/json/v1/1/categories.php'
 document.addEventListener('DOMContentLoaded', () => {
 
 
-    // ROWS DATA
+    // ROWS DATA PAGE
     const mealCategoryRow = document.getElementById('meal-categories')
     const hide = document.querySelector(".Landing-page")
 
-    // LINKS DATA
+    // LINKS DATA PAGE
     const categoriesLink = document.getElementById('category-link')
     const homeLink = document.getElementById('home-link')
 
    
 
-    // CLICK EVENTS FOR LINKS
+    // CLICK EVENTS FOR LINKS PAGE
     categoriesLink.addEventListener('click', () => {
 
         hide.style.display = "none"
