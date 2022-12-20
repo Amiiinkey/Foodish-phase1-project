@@ -18,4 +18,5 @@ Git clone the repo nd try it in your own macine,if u encounter any bugs pls make
 2. [CSS](https://)
 3. [Javascript](https://)
 
-- I used the eve
+- I used the EventListerners to call back functions like the click
+-
