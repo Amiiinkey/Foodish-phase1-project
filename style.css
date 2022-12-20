@@ -50,7 +50,7 @@ nav .Right-nav ul li:hover{
 
 
 .Bottom-div {
-    height: calc(50% - 47px);
+    height: calc(50% - 78px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,3 +84,91 @@ nav .Right-nav ul li:hover{
     border: 1px solid black;
     border-radius: 5px;
 }
+
+.contact_page_container {
+    display: none;
+}
+
+.Contact-page {
+    /* width: 100%; */
+    height: calc(100vh - 78px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-container {
+    width: 85%;
+    height: 700px;
+    border: 2px solid black;
+    display: flex;
+}
+#div1 {
+    width: 50%;
+    height: 100%;
+    /* background-color: #DF007C; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#div2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#div2 form {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#div2 form h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+form input {
+    width: 95%;
+    height: 50px;
+    margin: 15px 0 ;
+    border: 1px solid ;
+    font-size: 18px;
+    outline: none;
+    padding-left: 6px;
+    border-radius: 15px;
+    background: transparent;
+}
+
+textarea {
+    width: 95%;
+    height: 150px;
+    background-color: transparent;
+    outline: none;
+    border-radius: 15px;
+    padding-left: 6px;
+    font-size: 18px;
+    resize: none;
+}
+
+
+form button {
+    margin: 25px 0 10px 0 ;
+    width: 95%;
+    height: 50px;
+    background-color: darkorange;
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#div1 img {
+    transform: scale(2);
+}
+
+

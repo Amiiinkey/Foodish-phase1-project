@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const categoriesLink = document.getElementById('category-link')
     const homeLink = document.getElementById('home-link')
     const contactLink = document.getElementById('contact-link')
+    const contactPage = document.querySelector('.contact_page_container')
 
    
 
@@ -18,6 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     categoriesLink.addEventListener('click', () => {
 
         hide.style.display = "none"
+        contactPage.style.display = 'none'
        
         // show categories
         mealCategoryRow.removeAttribute('hidden')
@@ -28,11 +30,14 @@ document.addEventListener('DOMContentLoaded', () => {
     homeLink.addEventListener("click", () => {
         hide.style.display = "block"
         mealCategoryRow.style.display = "none"
+        contactPage.style.display = 'none'
 
     })
 
     contactLink.addEventListener("click", () => {
-        alert('contact-us is clicked')
+        hide.style.display = 'none'
+        mealCategoryRow.style.display = "none"
+        contactPage.style.display = 'block'
     })
 
       // create category element
