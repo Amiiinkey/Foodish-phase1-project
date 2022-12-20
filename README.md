@@ -24,3 +24,9 @@ Git clone the repo nd try it in your own macine,if u encounter any bugs pls make
 
 U can also go and watch vedios of PROGRAMING WITH MOSH he explains everything 
 
+### Author
+
+https://github.com/Amiiinkey
+
+BY MOHAMED AMIN
+
